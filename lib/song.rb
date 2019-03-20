@@ -39,13 +39,13 @@ class Song
     
   end
   
-  def self.genre_count
-    genre_count=Hash.new(0)
-    @@genres.each {|genre|
-      genre_count[genre]+=1
+  def self.artist_count
+    artist_count=Hash.new(0)
+    @@artists.each {|artist|
+      artist_count[artist]+=1
     }
     
-    genre_count
+    artist_count
     
   end
   
