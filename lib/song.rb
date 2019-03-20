@@ -33,7 +33,7 @@ class Song
     genre_count={}
     
     @@genres.each {|genre|
-      
+      genre_count
     }
     
   end
